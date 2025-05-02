@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+}
+  
+button {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+}
+  
+#hoverMe:hover {
+    color: red;
+}
+  
+.tab-content {
+    display: none;
+    margin-top: 1rem;
+}
+  
+.tab-content.active {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+}
+  
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+  
